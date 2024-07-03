@@ -60,7 +60,7 @@ main {
     --tw-bg-opacity: 1;
     background-color: rgb(0 0 0 / var(--tw-bg-opacity));
     background-image: linear-gradient(90deg, #4f4f4f2e 1px, transparent 0), linear-gradient(180deg, #8080800a 1px, transparent 0);
-    background-size: 14px 24px; 
+    background-size: 10px 20px; 
 
     width: 100vw;
     color: #ede8e4;
@@ -130,7 +130,7 @@ nav {
 
 .sec2 {
     text-align: center;
-    height: 70vh;
+    height: 60vh;
     width: 100%;
 }
 
@@ -606,7 +606,7 @@ button .span-mother2 span:nth-child(10) {
     display: flex;
     flex-direction: column;
     text-align: center;
-    background-color: rgba(88, 88, 88, 0.238);
+    background-color: rgba(60, 60, 60, 0.238);
   }
 
   .main-slogan {
@@ -626,7 +626,6 @@ button .span-mother2 span:nth-child(10) {
   }
 
   .sec4 {
-    margin-top: 0px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -636,10 +635,12 @@ button .span-mother2 span:nth-child(10) {
 
 
   .sec5 {
+    margin-top: 60px;
     width: 100%;
     display: flex;
     justify-content: center;
   }
+
   .thanks-container {
     width: 90%;
     display: flex;
@@ -668,3 +669,27 @@ button .span-mother2 span:nth-child(10) {
     width: 400px;
   }
 
+
+
+  .sec6 {
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+
+  .sec6-material {
+    border: 1px solid rgba(255, 255, 255, 0.103);
+    border-radius: 30px;
+    margin: 24px;
+    padding: 150px 50px;
+    width: 100vw;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.238);
+    box-shadow: 0px 0px 20px 1px #3e3e3ea7;
+  }
