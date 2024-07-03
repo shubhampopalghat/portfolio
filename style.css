@@ -65,6 +65,7 @@ main {
     width: 100vw;
     color: #ede8e4;
     max-width: 100vmax;
+    overflow-x: hidden;
 }
 
 nav {
@@ -74,8 +75,8 @@ nav {
     backdrop-filter: blur(1em);
     -webkit-backdrop-filter: blur(1em);
     z-index: 10;
-    height: 10vh;
-    width: 100vw;
+    height: 10%;
+    width: 100%;
     text-align: center;
     display: flex;
     justify-content: center;
@@ -86,7 +87,7 @@ nav {
 
 .content {
     width: 90%;
-    height: 5vh;
+    height: 25px;
     display: flex;
     justify-content: space-between;
 }
@@ -116,7 +117,7 @@ nav {
 } */
 
 .content h2 {
-    font-size: 20px;
+    font-size: 1.4em;
     font-weight: 500;
     cursor: pointer;
 }
@@ -124,13 +125,13 @@ nav {
 .sec1 {
     display: flex;
     justify-content: center;
-    height: 30vh;
+    height: 35vh;
 }
 
 .sec2 {
     text-align: center;
     height: 70vh;
-    width: 100vw;
+    width: 100%;
 }
 
 .sec2 h1 {
@@ -203,9 +204,7 @@ nav {
     background-clip: text;
     font-weight: 700;
     color: transparent;
-    font-size: 100px;
-    /* line-height: 0.9; */
-    width: 100vw;
+    font-size: 7em;
     font-weight: 700;
 }
 
@@ -221,7 +220,7 @@ nav {
     padding: 13px 40px;
     border: none;
     border-radius: 18px;
-    font-size: 15px;
+    font-size: 1em;
     font-weight: 500;
 }
 
@@ -589,12 +588,12 @@ button .span-mother2 span:nth-child(10) {
 
 
   .sec3 {
-    margin-top: 20px;
+    margin-top: 10%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 100%;
   }
 
   .material {
@@ -602,7 +601,7 @@ button .span-mother2 span:nth-child(10) {
     border-radius: 30px;
     margin: 24px;
     padding: 150px 50px;
-    width: 70vw;
+    width: 70%;
     justify-content: center;
     display: flex;
     flex-direction: column;
@@ -613,7 +612,7 @@ button .span-mother2 span:nth-child(10) {
   .main-slogan {
     position: relative;
     top: -30px;
-    font-size: 30px;
+    font-size: 2em;
   }
 
   .slogan {
@@ -637,12 +636,12 @@ button .span-mother2 span:nth-child(10) {
 
 
   .sec5 {
-    width: 100vw;
+    width: 100%;
     display: flex;
     justify-content: center;
   }
   .thanks-container {
-    width: 90vw;
+    width: 90%;
     display: flex;
     justify-content:space-between;
     align-items: center;
@@ -655,13 +654,13 @@ button .span-mother2 span:nth-child(10) {
     /* flex-direction: column; */
   }
   .thanks h1 {
-    font-size: 150px;
+    font-size: 9em;
     font-family: jacksilver;
   }
 
   .thanks p {
     rotate:270deg;
-    font-size: 20px;
+    font-size: 1em;
     font-family: Jacksilver;
 
   }
