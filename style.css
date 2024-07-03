@@ -1,0 +1,670 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+    /* overflow-x: hidden; */
+    /* overflow-wrap:unset; */
+    /* overflow-y: hidden;  */
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+* {
+    scroll-behavior: smooth;
+
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+@font-face {
+    font-family:Jacksilver;
+    src: url(assets/Fonts/Jacksilver.otf);
+  }
+
+  @font-face {
+    font-family:Gemstone;
+    src: url(assets/Fonts/Gemstone.ttf);
+  }
+
+
+
+.bg {
+
+    position: absolute;
+    z-index: -10;
+    /* width: 100%; */
+
+}
+
+.bg {
+    position: absolute;
+    top: 0;
+    transform: translateY(-30%);
+    background-image: url(assets/circle-effect.png);
+    background-size: 700px;
+    background-repeat: no-repeat;
+    /* background-color: blue; */
+    z-index: 0;
+    height: 700px;
+    width: 700px;
+}
+
+
+
+
+
+
+main {
+    --tw-bg-opacity: 1;
+    background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+    background-image: linear-gradient(90deg, #4f4f4f2e 1px, transparent 0), linear-gradient(180deg, #8080800a 1px, transparent 0);
+    background-size: 14px 24px; 
+
+    width: 100vw;
+    color: #ede8e4;
+}
+
+nav {
+    background: linear-gradient(to bottom, rgba(21, 19, 27, 1), rgba(21, 19, 27, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(1em);
+    -webkit-backdrop-filter: blur(1em);
+    z-index: 10;
+    height: 10vh;
+    width: 100vw;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+}
+
+.content {
+    width: 90%;
+    height: 5vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#logo {
+    width: 50px;
+    position: relative;
+    margin-top: -10px;
+    cursor: pointer;
+}
+
+/* .content button {
+    color: #ede8e4;
+    background-color: black;
+    width: 130px;
+    height: 25px;
+    border-radius: 20px;
+    border: 2px solid #ede8e4;
+    transition: all 0.4s 0.1ms ease-in-out;
+}
+
+.content button:hover {
+    background-color: #ede8e4;
+    color: black;
+
+} */
+
+.content h2 {
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.sec1 {
+    display: flex;
+    justify-content: center;
+    height: 30vh;
+}
+
+.sec2 {
+    text-align: center;
+    height: 70vh;
+    width: 100vw;
+}
+
+.sec2 h1 {
+    -webkit-text-size-adjust: 100%;
+    tab-size: 4;
+    font-family: ui-sans-serif, system-ui, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    font-feature-settings: normal;
+    font-variation-settings: normal;
+    -webkit-tap-highlight-color: transparent;
+    cursor: auto;
+    --tw-bg-opacity: 1;
+    --tw-text-opacity: 1;
+    box-sizing: border-box;
+    border: 0 solid #e5e7eb;
+    --tw-border-spacing-x: 0;
+    --tw-border-spacing-y: 0;
+    --tw-translate-x: 0;
+    --tw-translate-y: 0;
+    --tw-rotate: 0;
+    --tw-skew-x: 0;
+    --tw-skew-y: 0;
+    --tw-scale-x: 1;
+    --tw-scale-y: 1;
+    --tw-pan-x: ;
+    --tw-pan-y: ;
+    --tw-pinch-zoom: ;
+    --tw-scroll-snap-strictness: proximity;
+    --tw-gradient-from-position: ;
+    --tw-gradient-via-position: ;
+    --tw-gradient-to-position: ;
+    --tw-ordinal: ;
+    --tw-slashed-zero: ;
+    --tw-numeric-figure: ;
+    --tw-numeric-spacing: ;
+    --tw-numeric-fraction: ;
+    --tw-ring-inset: ;
+    --tw-ring-offset-width: 0px;
+    --tw-ring-offset-color: #fff;
+    --tw-ring-color: rgba(59, 130, 246, .5);
+    --tw-ring-offset-shadow: 0 0 #0000;
+    --tw-ring-shadow: 0 0 #0000;
+    --tw-shadow: 0 0 #0000;
+    --tw-shadow-colored: 0 0 #0000;
+    --tw-blur: ;
+    --tw-brightness: ;
+    --tw-contrast: ;
+    --tw-grayscale: ;
+    --tw-hue-rotate: ;
+    --tw-invert: ;
+    --tw-saturate: ;
+    --tw-sepia: ;
+    --tw-drop-shadow: ;
+    --tw-backdrop-blur: ;
+    --tw-backdrop-brightness: ;
+    --tw-backdrop-contrast: ;
+    --tw-backdrop-grayscale: ;
+    --tw-backdrop-hue-rotate: ;
+    --tw-backdrop-invert: ;
+    --tw-backdrop-opacity: ;
+    --tw-backdrop-saturate: ;
+    --tw-backdrop-sepia: ;
+    --tw-contain-size: ;
+    --tw-contain-layout: ;
+    --tw-contain-paint: ;
+    --tw-contain-style: ;
+    background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
+    --tw-gradient-from: #fff var(--tw-gradient-from-position);
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+    --tw-gradient-to: #9ca3af var(--tw-gradient-to-position);
+    background-clip: text;
+    font-weight: 700;
+    color: transparent;
+    font-size: 100px;
+    /* line-height: 0.9; */
+    width: 100vw;
+    font-weight: 700;
+}
+
+
+
+
+.sec2 .heading :first-child {
+    line-height: 0.9;
+}
+
+.btn button {
+    margin: 60px 20px;
+    padding: 13px 40px;
+    border: none;
+    border-radius: 18px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.btn1 {
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.4s ease;
+    background-size: 200% auto;
+    color: white;
+    font-weight: 700;
+    box-shadow: 0px 0px 14px -7px #f09819;
+    background-image: linear-gradient(45deg, #FF512F 0%, #F09819 51%, #FF512F 100%);
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.btn1:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+    box-shadow: 0px 0px 20px 1px #ff9d34;
+}
+
+.btn1:active {
+    transform: scale(0.95);
+}
+
+.btn2 {
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.4s ease;
+    background-size: 200% auto;
+    color: white;
+    font-weight: 700;
+    box-shadow: 0px 0px 14px -7px #f09819;
+    background-image: linear-gradient(45deg, #56d8e4 10%, #9f01ea 100%);
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.btn2:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+    box-shadow: 0px 0px 20px 1px #8dd2ff;
+}
+
+.btn2:active {
+    transform: scale(0.95);
+}
+
+
+/* button {
+    font-weight: bold;
+    color: white;
+    border-radius: 2rem;
+    cursor: pointer;
+    width: 95.02px;
+    height: 42.66px;
+    border: none;
+    background-color: #3653f8;
+    justify-content: center;
+    align-items: center;
+    text-align: center; */
+  
+strong {
+    color: #0000;
+}
+button .span-mother {
+    display: flex;
+    overflow: hidden;
+}
+
+/* button:hover .span-mother {
+    position: absolute;
+} */
+
+button:hover .span-mother span {
+    transform: translateY(100%);
+}
+
+button .span-mother span:nth-child(1) {
+    transition: 0.2s;
+}
+
+button .span-mother span:nth-child(2) {
+    transition: 0.3s;
+}
+
+button .span-mother span:nth-child(3) {
+    transition: 0.4s;
+}
+
+button .span-mother span:nth-child(4) {
+    transition: 0.4s;
+}
+
+button .span-mother span:nth-child(5) {
+    transition: 0.5s;
+}
+
+button .span-mother span:nth-child(6) {
+    transition: 0.6s;
+}
+button .span-mother span:nth-child(7) {
+    transition: 0.7s;
+}
+button .span-mother span:nth-child(8) {
+    transition: 0.8s;
+}
+button .span-mother span:nth-child(9) {
+    transition: 0.9s;
+}
+button .span-mother span:nth-child(10) {
+    transition: 1s;
+}
+
+button .span-mother2 {
+    display: flex;
+    position: absolute;
+    color: #00000000;
+}
+
+button .span-mother2 span {
+    transform: translateY(-30px);
+}
+
+button:hover .span-mother2 span {
+    transform: translateY(-100%);
+    color: #ffffff;
+}
+
+button .span-mother2 span:nth-child(1) {
+    transition: 0.2s;
+}
+
+button .span-mother2 span:nth-child(2) {
+    transition: 0.3s;
+}
+
+button .span-mother2 span:nth-child(3) {
+    transition: 0.4s;
+}
+
+button .span-mother2 span:nth-child(4) {
+    transition: 0.4s;
+}
+
+button .span-mother2 span:nth-child(5) {
+    transition: 0.5s;
+}
+
+button .span-mother2 span:nth-child(6) {
+    transition: 0.6s;
+}
+button .span-mother2 span:nth-child(7) {
+    transition: 0.7s;
+}
+button .span-mother2 span:nth-child(8) {
+    transition: 0.8s;
+}
+button .span-mother2 span:nth-child(9) {
+    transition: 0.9s;
+}
+button .span-mother2 span:nth-child(10) {
+    transition: 1s;
+}
+
+
+
+
+.gap {
+ background-color: rgba(88, 88, 88, 0.238);
+ height: 5px;
+}
+
+
+.marquee-container {
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  .marquee {
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 400;
+    cursor: pointer;
+    display: inline-block;
+    animation: marquee 40s linear infinite ;
+    animation-delay: 1ms;
+  }
+  .marquee span, .marquee hr {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  hr {
+    width: 70px; /* Adjust width as needed */
+    border: none;
+    border-top: 3px solid rgb(255, 255, 255); /* Adjust color and thickness as needed */
+    margin: 0 1px; /* Adjust spacing as needed */
+  }
+  @keyframes marquee {
+    from {
+        transform: translateX(5%);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+
+.marquee {
+
+    display: flex ;
+    /* overflow: hidden ; */
+    white-space: nowrap ;
+    width: 600px ;
+}
+.marquee__item {
+    animation-duration: 40s ;
+    animation-iteration-count: infinite ;
+    animation-name: marquee-content ;
+    animation-timing-function: linear ;
+}
+.marquee:hover .marquee__item {
+    animation-play-state: paused ;
+}
+
+/**
+* BOTH of the marquee items are going to be translating left at the same time.
+* And, once each of them has translated to -100%, they will both snap back into
+* place, making it seem as if they are continuously scrolling.
+*/
+@keyframes marquee-content {
+    from {
+        transform: translateX( 0% );
+    }
+    to {
+        transform: translateX( -100% );
+    }
+}
+
+
+
+
+
+.card img {
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+  
+  .container {
+    width: 100%;
+    width: 820px;
+    height: 340px;
+    display: flex;
+    gap: 10px;
+    margin-inline: 50px;
+    z-index: 44;
+  }
+  
+  .card {
+    min-width: 70px;
+    height: 100%;
+    border-radius: 30px;
+    overflow: hidden;
+  
+    display: flex;
+    align-items: flex-end;
+    flex-grow: 1;
+    cursor: pointer;
+    position: relative;
+    transition: flex-grow 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+  
+    --transition-timing: 0.35s;
+  }
+  /* .card.active {
+    flex-grow: 100;
+  } */
+  .card:hover {
+    flex-grow: 7;
+  }
+  
+  .card > .background {
+    position: absolute;
+    inset: 0;
+    object-fit: cover;
+    object-position: center;
+    filter: brightness(0.4);
+    transition: var(--transition-timing) ease;
+  }
+  .card:hover > .background {
+    filter: brightness(1);
+  }
+  
+  .card > .card-content {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 10px;
+    right: 10px;
+    bottom: 20px;
+    overflow: hidden;
+    transition: var(--transition-timing);
+    z-index: 10;
+  }
+  .card:hover > .card-content {
+    inset: 20px;
+    top: auto;
+  }
+  
+  .card-content > * {
+    transition: var(--transition-timing);
+  }
+  
+  .card-content > .profile-image {
+    min-width: 50px;
+    max-width: 50px;
+    height: 50px;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  .card:hover .profile-image {
+    border: 1px solid rgb(110, 252, 205);
+  }
+  .profile-image > svg {
+    stroke: #fefefe;
+  }
+  .card:hover .profile-image > svg {
+    stroke: rgb(110, 252, 205);
+  }
+  
+  .card-content > .title {
+    white-space: pre;
+    margin-left: 10px;
+    translate: 0 100%;
+    opacity: 0;
+  }
+  .card:hover .title {
+    opacity: 1;
+    translate: 0 0;
+  }
+  
+  .card > .backdrop {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100px;
+    z-index: 0;
+    background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.7));
+  }
+
+
+
+
+  .sec3 {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .material {
+    border: none;
+    border-radius: 30px;
+    margin: 24px;
+    padding: 150px 50px;
+    width: 70vw;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgba(88, 88, 88, 0.238);
+  }
+
+  .main-slogan {
+    position: relative;
+    top: -30px;
+    font-size: 30px;
+  }
+
+  .slogan {
+    position: relative;
+    top: -75px;
+  }
+
+  .card-material {
+    display: flex;
+    justify-content: center;
+  }
+
+  .sec4 {
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+  }
+
+
+  .sec5 {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+  }
+  .thanks-container {
+    width: 90vw;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+
+  }
+
+  .thanks {
+    display: flex;
+    gap: 100px;
+    /* flex-direction: column; */
+  }
+  .thanks h1 {
+    font-size: 150px;
+    font-family: jacksilver;
+  }
+
+  .thanks p {
+    rotate:270deg;
+    font-size: 20px;
+    font-family: Jacksilver;
+
+  }
+  .baloon img {
+    width: 400px;
+  }
+
