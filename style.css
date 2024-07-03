@@ -69,7 +69,7 @@ main {
 }
 
 nav {
-    background: linear-gradient(to bottom, rgba(21, 19, 27, 1), rgba(21, 19, 27, 0));
+/*     background: linear-gradient(to bottom, rgba(21, 19, 27, 1), rgba(21, 19, 27, 0)); */
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(1em);
