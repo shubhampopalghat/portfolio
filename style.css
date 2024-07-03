@@ -64,6 +64,7 @@ main {
 
     width: 100vw;
     color: #ede8e4;
+    max-width: 100vmax;
 }
 
 nav {
