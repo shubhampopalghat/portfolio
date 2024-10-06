@@ -122,6 +122,14 @@ nav {
     cursor: pointer;
 }
 
+.content h2 {
+text-decoration: none;
+color: white;
+font-size: 1.4em;
+font-weight: 500;
+cursor: pointer;
+}
+
 .sec1 {
     display: flex;
     justify-content: center;
