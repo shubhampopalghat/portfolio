@@ -117,7 +117,7 @@ nav {
 } */
 
 .content h2 {
-    font-size: 1.4em;
+    font-size: 0.9rem;
     font-weight: 500;
     cursor: pointer;
 }
@@ -139,7 +139,7 @@ cursor: pointer;
 .sec2 {
     text-align: center;
     height: 60vh;
-    width: 100%;
+    width: 100%;      
 }
 
 .sec2 h1 {
@@ -212,7 +212,7 @@ cursor: pointer;
     background-clip: text;
     font-weight: 700;
     color: transparent;
-    font-size: 7em;
+    font-size: 5rem;
     font-weight: 700;
 }
 
@@ -225,10 +225,10 @@ cursor: pointer;
 
 .btn button {
     margin: 60px 20px;
-    padding: 13px 40px;
+    padding: 11px 35px;
     border: none;
     border-radius: 18px;
-    font-size: 1em;
+    font-size: 0.8rem;
     font-weight: 500;
 }
 
@@ -622,6 +622,7 @@ button .span-mother2 span:nth-child(10) {
   .slogan {
     position: relative;
     top: -75px;
+    font-size: 1.2rem;
   }
 
   .card-material {
@@ -646,7 +647,7 @@ button .span-mother2 span:nth-child(10) {
   }
 
   .thanks-container {
-    width: 90%;
+    width: 70%;
     display: flex;
     justify-content:space-between;
     align-items: center;
@@ -659,56 +660,36 @@ button .span-mother2 span:nth-child(10) {
     /* flex-direction: column; */
   }
   .thanks h1 {
-    font-size: 9em;
+    font-size: 7rem;
     font-family: jacksilver;
   }
 
   .thanks p {
     rotate:270deg;
-    font-size: 1em;
+    font-size: 1rem;
     font-family: Jacksilver;
 
   }
   .baloon img {
-    width: 400px;
+    width: 300px;
   }
 
 
 
-  .sec6 {
-    margin-top: 5%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-  }
-
-  .sec6-material {
-    border-top: 1px solid rgba(255, 255, 255, 0.103);
-    /* border-radius: 30px; */
-    margin-top: 24px;
-    padding: 150px 0px 0px 0px ;
-    width: 100vw;
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.238);
-    box-shadow: 0px 0px 200px 1px #3e3e3ea7;
-  }
 
 
   .gap {
     background-color: rgba(100, 97, 97, 0.414);
     height: 5px;
     width: 100vw;
+    position: relative;
+    top: 100px;
    }
    
 
-   .sec8 {
+   .sec8 {  
     width: 100vw;
-    height: 50vh;
+    height: 60vh;
     --tw-bg-opacity: 1;
     background-color: rgb(0 0 0 / var(--tw-bg-opacity));
     background-image: linear-gradient(90deg, #4f4f4f2e 1px, transparent 0), linear-gradient(180deg, #8080800a 1px, transparent 0);
@@ -724,7 +705,7 @@ button .span-mother2 span:nth-child(10) {
 #wrap
 {
 	width: 100%;
-	height: 100%;
+	height: 60%;
 	position: relative;
 	margin: 0 auto 0 auto;
 	overflow: hidden;
@@ -732,7 +713,7 @@ button .span-mother2 span:nth-child(10) {
 
 #lightings
 {
-	bottom: -60px;
+	bottom: 0px;
 	position: absolute;
 	width: 100%;
 }
@@ -951,7 +932,7 @@ to { box-shadow: 0 0 100px 15px #F4F6AD; }
 
   
   .footer{
-  background:#000;
+  background:#00000000;
   padding:30px 0px;
   font-family: 'Play', sans-serif;
   text-align:center;
@@ -962,7 +943,7 @@ to { box-shadow: 0 0 100px 15px #F4F6AD; }
   margin:1% 0%;
   padding:0.6% 0%;
   color:gray;
-  font-size:0.8em;
+  font-size:1rem;
   }
   
   .footer .row a{
@@ -1003,3 +984,21 @@ to { box-shadow: 0 0 100px 15px #F4F6AD; }
   margin:0% 3%;
   }
   }
+
+
+
+  .sec4 .material {
+    gap:100px
+  }
+
+
+
+  /* Set the main container to take the full viewport height */
+
+.sec8 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
